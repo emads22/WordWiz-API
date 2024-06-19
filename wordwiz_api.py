@@ -7,7 +7,7 @@ from config import WORDWIZ_API_ROUTE
 
 class WordWizAPI:
     """
-    Handles requests at http://127.0.0.1:8080/wordwiz/api/v1/dictionary?word=
+    Handles requests at http://127.0.0.1:8080/wordwiz/api/v1/define?word=
 
     Retrieves definitions for the given word and returns them in JSON format.
     """
