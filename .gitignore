@@ -12,3 +12,6 @@
 
 # Ignore Planning folder
 Planning/
+
+# Ignore justpy.env file 
+**/justpy.env
