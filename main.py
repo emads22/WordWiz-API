@@ -1,6 +1,6 @@
 import justpy as jp
 from app_logger import AppLogger
-from api import WordWizAPI
+from wordwiz_api import WordWizAPI
 
 
 # Initialize an AppLogger instance
