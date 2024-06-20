@@ -15,3 +15,6 @@ Planning/
 
 # Ignore justpy.env file 
 **/justpy.env
+
+# Ignore app.log file 
+**/app.log

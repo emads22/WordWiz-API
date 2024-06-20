@@ -7,19 +7,7 @@ WordWiz API is a web service built using JustPy that provides instant word defin
 - **Real-time Definitions**: Fetch instant definitions for any English word via API requests.
 - **Scalable and Robust**: Built using JustPy, ensuring high performance and scalability.
 - **Easy Integration**: Simple and well-documented endpoints for seamless integration into your applications.
-
-## Project Structure
-```sh
-wordwiz_api_project/
-│
-├── config.py
-│
-├── definition.py
-│
-├── main.py
-│
-└── wordwiz_api.py
-```
+- **Custom Logger**: Easily add a custom logger to track and manage application logs efficiently. Users are free to adjust custom logging settings by modifying the `setup_logger` function according to their requirements.
 
 ## Setup
 
@@ -77,3 +65,19 @@ curl "http://127.0.0.1:8080/wordwiz/api/v1/define?word=example"
 - **definition.py**: Contains functions or classes related to word definitions.
 - **main.py**: Entry point to start the API server.
 - **wordwiz_api.py**: Contains the main API logic for handling word definition requests.
+
+## Contributing
+Contributions are welcome! Here are some ways you can contribute to the project:
+- Report bugs and issues
+- Suggest new features or improvements
+- Submit pull requests with bug fixes or enhancements
+
+## Author
+- Emad &nbsp; E>
+  
+  [<img src="https://img.shields.io/badge/GitHub-Profile-blue?logo=github" width="150">](https://github.com/emads22)
+
+## License
+This project is licensed under the MIT License, which grants permission for free use, modification, distribution, and sublicense of the code, provided that the copyright notice (attributed to [emads22](https://github.com/emads22)) and permission notice are included in all copies or substantial portions of the software. This license is permissive and allows users to utilize the code for both commercial and non-commercial purposes.
+
+Please see the [LICENSE](LICENSE) file for more details.
