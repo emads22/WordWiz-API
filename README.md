@@ -1,7 +1,7 @@
 # WordWiz API
 
 ## Overview
-WordWiz API is a web service built using JustPy that provides instant word definitions. This API allows you to integrate real-time word definitions into your applications effortlessly. With a robust backend, WordWiz API offers a reliable and scalable solution for language exploration.
+WordWiz API is a web service used by the instant dictionary web app WordWiz, providing instant word definitions. This API allows you to integrate real-time word definitions into your applications effortlessly. With a robust backend, WordWiz API offers a reliable and scalable solution for language exploration. It's designed not only for use by WordWiz but also by other applications, offering a versatile solution for language exploration.
 
 ## Features
 - **Real-time Definitions**: Fetch instant definitions for any English word via API requests.
@@ -43,13 +43,13 @@ WordWiz API is a web service built using JustPy that provides instant word defin
     The API will be accessible at `http://127.0.0.1:8080` by default. You can make API requests to this endpoint to fetch word definitions.
 
 ### Example API Request
-- **Endpoint**: `/wordwiz/api/v1/define`
+- **Endpoint**: `/wordwiz-api/v1/define`
 - **Method**: GET
 - **Query Parameter**: `word` (the word you want to define)
 
 #### Example Request
 ```sh
-curl "http://127.0.0.1:8080/wordwiz/api/v1/define?word=example"
+curl "http://127.0.0.1:8080/wordwiz-api/v1/define?word=example"
 ```
 
 #### Example Response

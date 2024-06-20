@@ -6,4 +6,4 @@ DATA_FILE = ASSETS / "resources" / "data.csv"
 
 # Define the API routes
 BASE_URL = "http://127.0.0.1:8080"
-WORDWIZ_API_ROUTE = '/wordwiz/api/v1/define'
+WORDWIZ_API_ROUTE = '/wordwiz-api/v1/define'

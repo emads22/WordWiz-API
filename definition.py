@@ -3,6 +3,12 @@ import pandas as pd
 from config import DATA_FILE
 
 
+# Retrieve or create a logger instance associated with the current module name.
+# This ensures that each module has its own logger, facilitating modular logging
+# and allowing for easier tracking of log messages to their respective modules.
+logger = logging.getLogger(__name__)
+
+
 class Definition:
     """
     A class to retrieve definitions for a given term from a DataFrame.
@@ -20,7 +26,7 @@ class Definition:
         try:
             self.df = pd.read_csv(DATA_FILE)
         except FileNotFoundError as e:
-            logging.error(f"Data file '{DATA_FILE}' not found: {e}")
+            logger.error(f"Data file '{DATA_FILE}' not found: {e}")
 
     def get(self) -> list:
         """
@@ -39,5 +45,5 @@ class Definition:
             return definitions
 
         except KeyError as e:
-            logging.error(f"Key error occurred: {e}")
+            logger.error(f"Key error occurred: {e}")
             return []  # Return an empty list if the term is not found in the DataFrame
