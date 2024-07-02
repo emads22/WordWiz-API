@@ -9,6 +9,11 @@ WordWiz API is a web service used by the instant dictionary web app WordWiz, pro
 - **Easy Integration**: Simple and well-documented endpoints for seamless integration into your applications.
 - **Custom Logger**: Easily add a custom logger to track and manage application logs efficiently. Users are free to adjust custom logging settings by modifying the `AppLogger` class according to their requirements.
 
+## Technologies Used
+- **justpy**: A library for building interactive web applications.
+- **pandas**: A data manipulation and analysis library.
+- **logging**: A module for tracking events that happen when software runs.
+
 ## Setup
 
 ### Prerequisites
