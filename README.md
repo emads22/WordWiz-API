@@ -1,5 +1,7 @@
 # WordWiz API
 
+![WordWiz_logo](./assets/images/WordWiz_logo.png)
+
 ## Overview
 WordWiz API is a web service used by the instant dictionary web app [WordWiz](https://github.com/emads22/wordwiz), providing instant word definitions. This API allows you to integrate real-time word definitions into your applications effortlessly. With a robust backend, WordWiz API offers a reliable and scalable solution for language exploration. It's designed not only for use by WordWiz but also by other applications, offering a versatile solution for language exploration. The API is built using object-oriented programming (OOP) principles, ensuring modularity, extensibility, and maintainability of the codebase.
 
